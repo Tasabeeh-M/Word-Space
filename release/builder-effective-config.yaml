@@ -1,0 +1,9 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.wordspace.app
+files:
+  - filter:
+      - dist/**/*
+      - electron.js
+electronVersion: 43.3.0
